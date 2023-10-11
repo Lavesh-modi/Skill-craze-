@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { Card } from "@mui/material";
+import "./App.css";
+import Navbar from "./Component/Navbar";
+import Searchbar from "./Component/Searchbar";
+import SignIn from "./Component/SignIn";
+import Cards from "./Component/Cards";
+import cards2 from "./Component/cards2";
+import Searchbar2 from "./Component/Searchbarr";
+import Footer from "./Component/Footer";
+import Home from "./Pages/Home";
+import Sidebar from "./Component/Sidebar";
+import Company from "./Pages/Company";
+import Content from "./Component/Content";
+// import SingUp from './Component/SingnUp';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Content></Content> */}
+      {/* <Company></Company> */}
+      {/* <Sidebar></Sidebar> */}
+      {/* <Searchbar2></Searchbar2> */}
+      <Home></Home>
+
+      {/* <Searchbar2></Searchbar2> */}
+      {/* <SignIn></SignIn> */}
+      {/* <Navbar></Navbar> */}
+
+      {/* <Searchbar></Searchbar> */}
+
+      {/* <Cards></Cards> */}
+      {/* <cards2></cards2> */}
     </div>
   );
 }
